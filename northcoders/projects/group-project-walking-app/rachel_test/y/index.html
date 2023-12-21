@@ -36,7 +36,7 @@
   firebase
     .auth()
     .signInWithPopup(provider)
-    .then((result) => {
+    .then(result => {
       const user = result.user;
       document.write(`Hello ${user.displayName}`);
       console.log(user);
