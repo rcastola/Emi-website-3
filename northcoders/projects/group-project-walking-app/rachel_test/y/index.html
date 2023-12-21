@@ -27,26 +27,12 @@
   </head>
   <body>
 
-    <!-- <script src="app.js">
-      -->
-    <!-- </script> -->
-    <script>
-      function googleLogin() {
-  const provider = new firebase.auth.GoogleAuthProvider();
-  firebase
-    .auth()
-    .signInWithPopup(provider)
-    .then(result => {
-      const user = result.user;
-      document.write(`Hello ${user.displayName}`);
-      console.log(user);
-    })
-    .catch(console.log);
-}
+    <script src="app.js"></script>
+     
 <button onclick="googleLogin()">
       Login with Google
     </button>
-    </script>
+   
 
   </body>
 </html>
